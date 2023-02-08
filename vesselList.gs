@@ -7,7 +7,7 @@ function listFiles(){
   var reglist = ss.getSheets()[1].getRange('B1:B' + ss.getSheets()[1].getLastRow()).getValues().toString();  
   var regarray = ss.getSheets()[1].getRange('A1:B' + ss.getSheets()[1].getLastRow()).getValues();
   
-  var folder = DriveApp.getFolderById('1P-B_ffCxi2MzbhmYDaL5xdgA5DZngNtx');
+  var folder = DriveApp.getFolderById('');  // Google Drive Folder ID
   var list = [];
   list.push(['Name','Reg']);
   var files = folder.getFiles();  

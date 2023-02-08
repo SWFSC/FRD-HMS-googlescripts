@@ -1,7 +1,7 @@
 function fileSize(){
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   
-  var folder = DriveApp.getFolderById('1P-B_ffCxi2MzbhmYDaL5xdgA5DZngNtx');
+  var folder = DriveApp.getFolderById(' ');   // Google Drive Folder ID
   var list = [];
   list.push(['Name','Registration', 'Size (Kb)']);
   var files = folder.getFiles();  
